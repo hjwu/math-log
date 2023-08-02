@@ -53,7 +53,9 @@ const config = {
         blog: {
           remarkPlugins: [math],
           rehypePlugins: [katex],
-          showReadingTime: true,
+          showReadingTime: false,
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -92,30 +94,7 @@ const config = {
             position: 'left',
             label: 'Solutions',
           },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'ecaSidebar',
-          //   position: 'left',
-          //   label: 'Elementary Classical Analysis',
-          // },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'cczSidebar',
-          //   position: 'left',
-          //   label: 'CCZ',
-          // },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tiaSidebar',
-          //   position: 'left',
-          //   label: 'Topics In Algebra',
-          // },
           { to: '/blog', label: '過期廢文', position: 'left' },
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       footer: {
@@ -167,6 +146,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages: ['powershell', 'csharp'],
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        // respectPrefersColorScheme: false,
       },
     }),
 };
