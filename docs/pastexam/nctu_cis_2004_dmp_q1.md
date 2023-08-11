@@ -1,5 +1,5 @@
 ---
-title: "2004 交大資科 離散數學與機率 Q1"
+title: "2004 交大資科 - 離散數學與機率 Q1"
 hide_table_of_contents: true
 ---
 
