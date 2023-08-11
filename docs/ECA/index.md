@@ -1,6 +1,8 @@
 ---
 title: "關於本書"
 hide_table_of_contents: true
+pagination_next: null
+pagination_prev: null
 ---
 
 Elementary Classical Analysis (2nd Edition) by [Jerrold E. Marsden](http://www.cds.caltech.edu/~marsden/), Michael J. Hoffman; 
