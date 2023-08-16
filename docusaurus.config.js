@@ -85,14 +85,14 @@ const config = {
         title: 'My Math Log',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'solSidebar',
             position: 'left',
-            label: 'Solutions',
+            label: '數學解答',
           },
           { to: '/blog', label: '過期廢文', position: 'left' },
         ],
