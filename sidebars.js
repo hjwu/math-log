@@ -29,7 +29,7 @@ const sidebars = {
   // ],
 
   solSidebar: [
-    'About',
+    'HelloWorld',
     {
       type: 'category',
       label: 'Topics In Algebra',
