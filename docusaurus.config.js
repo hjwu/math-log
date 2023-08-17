@@ -9,14 +9,14 @@ const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'My Math Log',
-  tagline: '二十年前寫的數學紀錄',
+  tagline: '二十年前寫的數學解答',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://hjwu.github.io',
+  url: 'https://solutions.hjwu.me',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/math-log/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
